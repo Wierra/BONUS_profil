@@ -91,44 +91,42 @@ h1{
 .odkazy a{
 	text-decoration: none;
 	color: rgb(176, 176, 176);
-	margin: 0;
+	padding: 20px 30px;
+	display: inline-block;
 }
 
 .odkazy li{
 	list-style: none;
-	padding: 20px;
+	display: inline-block;
 }
 
 .facebook,
 .twitter{
-	display: inline-block;
 	width: 50%;
 	border-top: 1px solid rgb(109, 109, 109);
 }
 
-.portfolio{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
 .facebook{
-	border-left: 1px solid rgb (109, 109, 109);
+	border-left: 1px solid rgb(109, 109, 109);
 }
 
 .portfolio a:hover{
 	background-color: #e74c3c;
 	display: inline-block;
 	color: white;
+	width: 350px;
 }
 
 .facebook a:hover{
 	background-color: #3b5998;
 	display: inline-block;
 	color: white;
+	width: 175px;
 }
 
 .twitter a:hover{
 	background-color: #1da1f2;
 	display: inline-block;
 	color: white;
+	width: 175px;
 }
