@@ -33,7 +33,7 @@ body {
 	font-family: Montserrat, sans-serif;
 	width: 350px;
 	margin: 0 auto;
-	margin-top:50px;
+	margin-top: 50px;
 	position: relative;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .jmeno{
-	font-family: Montserrat;
+	font-family: Montserrat, sans-serif;
 	font-size: 32px;
 	color: rgb(226, 226, 226);
 	margin: 20px 0;
@@ -53,7 +53,6 @@ img{
 }
 
 .hlavicka{
-
 	background-color: rgb(81, 81, 81);
 } 
 
@@ -68,7 +67,7 @@ img{
 }
 
 .obsah{
-	padding: 20px;
+	padding: 25px;
 	background-color: rgb(81, 81, 81);
 	color: rgb(176, 176, 176);
 	font-size: 20px;
@@ -101,7 +100,6 @@ p{
 }
 
 .portfolio a{
-	/* border-bottom: 1px solid rgb(109, 109, 109); */
 	padding: 20px 0;
 	width: 350px;
 }
@@ -113,12 +111,8 @@ p{
 	padding: 20px 33.2px;
 	/* background-color: blue; */
 	width: 100%;
-	margin: 0;
+	margin: 0;	
 }
-
-/* .facebook{
-	border-right: 1px solid rgb(109, 109, 109);
-} */
 
 .portfolio a:hover,
 .facebook a:hover,
