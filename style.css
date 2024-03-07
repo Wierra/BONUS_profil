@@ -50,10 +50,13 @@ body {
 
 img{
 	width: 350px;
+	height: 240px;;
 }
 
 .hlavicka{
 	background-color: rgb(81, 81, 81);
+	position: relative;
+	height: 240px;
 } 
 
 .logo{
@@ -62,8 +65,8 @@ img{
 	background-color: #b92e81;
 	border-radius: 50%;
 	position: absolute;
-	left: 70%;
-	top: 23.5%;
+	bottom: -35px;
+	right: 35px;;
 }
 
 .obsah{
@@ -90,9 +93,7 @@ p{
 .odkazy a{
 	text-decoration: none;
 	color: rgb(176, 176, 176);
-	/* padding: 20px 33.2px; */
 	display: inline-block;
-	/* background-color: pink; */
 }
 
 .odkazy li{
@@ -102,15 +103,13 @@ p{
 .portfolio a{
 	padding: 20px 0;
 	width: 350px;
+	border-bottom: 1px solid rgb(109, 109, 109);
 }
 
 .facebook a,
 .twitter a{
-	border-top: 1px solid rgb(109, 109, 109);
 	display: inline-block;
 	padding: 20px 33.2px;
-	/* background-color: blue; */
-	width: 100%;
 	margin: 0;	
 }
 
